@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.mySchema - My Schema
-Generated 2024-05-14T05:21:45.524989+00:00
+Generated 2024-05-14T05:55:11.333115+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting
@@ -17,7 +17,7 @@ Validation result for _sources/mySchema/rules.shacl:
   Conforms: True
   
 Focus nodes for _sources/mySchema/rules.shacl:
- - Shape <https://www.ogc.org/rules/template/#testValues>: _:N94648ce8edfc4cdbbb5f053b4b0895b2
+ - Shape <https://www.ogc.org/rules/template/#testValues>: _:N6e6b50bb3485480b8d45e791d9f2ae57
 
 === End SHACL ===
 

@@ -13,14 +13,14 @@
     rdfs:label "Custom Feature" ;
     dct:abstract "This examples shows a simple customisation for OGC API Feature schemas" ;
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/markdown/bbr/template/myFeature/index.md" ],
+        [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/slate-build/bbr/template/myFeature/" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/bblock/ogc.bbr.template.myFeature" ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/json-full/bbr/template/myFeature/index.json" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/markdown/bbr/template/myFeature/index.md" ] ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/json-full/bbr/template/myFeature/index.json" ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2024-05-14"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> ;
@@ -48,12 +48,12 @@
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/markdown/bbr/template/mySchema/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/bblock/ogc.bbr.template.mySchema" ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/json-full/bbr/template/mySchema/index.json" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/slate-build/bbr/template/mySchema/" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/bblock/ogc.bbr.template.mySchema" ] ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/slate-build/bbr/template/mySchema/" ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2024-05-14"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
@@ -69,27 +69,27 @@
 
 <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/> a skos:ConceptScheme,
         dcat:Catalog ;
-    rdfs:label "Building Blocks - My OGC Building Blocks repository" ;
+    rdfs:label "Building Blocks - My OGC Building Blocks repository11" ;
     dct:abstract """This is an example text for the abstract. It should be short and to the point.
 A "Tell me more" link will appear if there is an additional description with a longer explanation.
 """ ;
     dct:description """The description can be longer. Both **the abstract** *and the description* support Markdown,
 including [links](https://google.es).
 """ ;
-    skos:prefLabel "Building Blocks - My OGC Building Blocks repository" ;
+    skos:prefLabel "Building Blocks - My OGC Building Blocks repository11" ;
     bblocks:hasValidationReport <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/tests/report.html> ;
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-05-14T05:21:45.706222"^^xsd:dateTime ;
-    prov:startedAtTime "2024-05-14T05:21:45.647376"^^xsd:dateTime ;
+    prov:endedAtTime "2024-05-14T05:55:11.557573"^^xsd:dateTime ;
+    prov:startedAtTime "2024-05-14T05:55:11.496307"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
-            dct:format "application/json" ;
-            dct:hasVersion "git:88c9790f6e7cac2f736baac715950ccca0605148" ;
-            rdfs:seeAlso <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/register.json> ],
-        [ a prov:Entity ;
             dct:format "application/yaml" ;
-            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
+        [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:9b9aa129c2bfa83704a526a99119b5e9c78c7203" ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/register.json> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
