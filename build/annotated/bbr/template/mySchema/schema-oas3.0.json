@@ -23,12 +23,12 @@
         "b"
       ],
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema-oas3.0.json"
+      "x-schema-source": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema-oas3.0.json"
     }
   },
   "allOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_mySchema_schema.json"
+      "$ref": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_mySchema_schema.json"
     }
   ]
 }

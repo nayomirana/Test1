@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/context.jsonld",
+    "https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/context.jsonld",
     {
       "mynamespace": "http://example.org/ns1/"
     }

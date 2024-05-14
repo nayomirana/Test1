@@ -30,7 +30,7 @@ This examples shows a simple customisation for OGC API Feature schemas
 </p>
 
 <aside class="success">
-This building block is <strong><a href="https://github.com/nayomirana/OGC_BuildingBlockTest/blob/master/build/tests/bbr/template/myFeature/" target="_blank">valid</a></strong>
+This building block is <strong><a href="https://github.com/nayomirana/Test1/blob/master/build/tests/bbr/template/myFeature/" target="_blank">valid</a></strong>
 </aside>
 
 # Description
@@ -87,8 +87,8 @@ This building block **inherits** reusable semantic annotations from a common lib
 
 <blockquote class="lang-specific json">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/tests/bbr/template/myFeature/example_1_1.json">Open in new window</a>
-    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fnayomirana%2FOGC_BuildingBlockTest%2Fmaster%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FmyFeature%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+    <a target="_blank" href="https://nayomirana.github.io/Test1/build/tests/bbr/template/myFeature/example_1_1.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fnayomirana.github.io%2FTest1%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FmyFeature%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
 </blockquote>
 
 
@@ -97,7 +97,7 @@ This building block **inherits** reusable semantic annotations from a common lib
 ```jsonld
 {
   "@context": [
-    "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/context.jsonld",
+    "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/context.jsonld",
     {
       "mynamespace": "http://example.org/ns1/"
     }
@@ -127,8 +127,8 @@ This building block **inherits** reusable semantic annotations from a common lib
 
 <blockquote class="lang-specific jsonld">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/tests/bbr/template/myFeature/example_1_1.jsonld">Open in new window</a>
-    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fnayomirana%2FOGC_BuildingBlockTest%2Fmaster%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FmyFeature%2Fexample_1_1.jsonld">View on JSON-LD Playground</a>
+    <a target="_blank" href="https://nayomirana.github.io/Test1/build/tests/bbr/template/myFeature/example_1_1.jsonld">Open in new window</a>
+    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fnayomirana.github.io%2FTest1%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FmyFeature%2Fexample_1_1.jsonld">View on JSON-LD Playground</a>
 </blockquote>
 
 
@@ -153,7 +153,7 @@ This building block **inherits** reusable semantic annotations from a common lib
 
 <blockquote class="lang-specific turtle">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/tests/bbr/template/myFeature/example_1_1.ttl">Open in new window</a>
+    <a target="_blank" href="https://nayomirana.github.io/Test1/build/tests/bbr/template/myFeature/example_1_1.ttl">Open in new window</a>
 </blockquote>
 
 
@@ -169,18 +169,18 @@ $defs:
     - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml
     - properties:
         properties:
-          $ref: https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema.yaml
+          $ref: https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema.yaml
 anyOf:
 - $ref: '#/$defs/MyFeature'
 
 ```
 
-> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fnayomirana%2FOGC_BuildingBlockTest%2Fmaster%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FmyFeature%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
+> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fnayomirana.github.io%2FTest1%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FmyFeature%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
 
 Links to the schema:
 
-* YAML version: <a href="https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema.yaml" target="_blank">https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema.yaml</a>
-* JSON version: <a href="https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema.json" target="_blank">https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema.json</a>
+* YAML version: <a href="https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema.yaml" target="_blank">https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema.yaml</a>
+* JSON version: <a href="https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema.json" target="_blank">https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema.json</a>
 
 
 # JSON-LD Context
@@ -249,10 +249,10 @@ Links to the schema:
 }
 ```
 
-> <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fnayomirana%2FOGC_BuildingBlockTest%2Fmaster%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FmyFeature%2Fcontext.jsonld">View on JSON-LD Playground</a>
+> <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fnayomirana.github.io%2FTest1%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FmyFeature%2Fcontext.jsonld">View on JSON-LD Playground</a>
 
 You can find the full JSON-LD context here:
-<a href="https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/context.jsonld" target="_blank">https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/context.jsonld</a>
+<a href="https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/context.jsonld" target="_blank">https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/context.jsonld</a>
 
 # Validation
 
@@ -261,7 +261,7 @@ You can find the full JSON-LD context here:
 The following sets of SHACL shapes are used for validating this building block:
 
 * My Schema <small><code>ogc.bbr.template.mySchema</code></small>
-  * [https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/mySchema/rules.shacl](https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/mySchema/rules.shacl)
+  * [https://nayomirana.github.io/Test1/_sources/mySchema/rules.shacl](https://nayomirana.github.io/Test1/_sources/mySchema/rules.shacl)
 
 # References
 
@@ -271,7 +271,7 @@ The following sets of SHACL shapes are used for validating this building block:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: <a href="https://github.com/nayomirana/OGC_BuildingBlockTest" target="_blank">https://github.com/nayomirana/OGC_BuildingBlockTest</a>
+* URL: <a href="https://github.com/nayomirana/Test1" target="_blank">https://github.com/nayomirana/Test1</a>
 * Path:
-<code><a href="https://github.com/nayomirana/OGC_BuildingBlockTest/blob/HEAD/_sources/myFeature" target="_blank">_sources/myFeature</a></code>
+<code><a href="https://github.com/nayomirana/Test1/blob/HEAD/_sources/myFeature" target="_blank">_sources/myFeature</a></code>
 

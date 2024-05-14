@@ -61,7 +61,7 @@ This building block **inherits** reusable semantic annotations from a common lib
 ```jsonld
 {
   "@context": [
-    "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/context.jsonld",
+    "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/context.jsonld",
     {
       "mynamespace": "http://example.org/ns1/"
     }
@@ -118,7 +118,7 @@ $defs:
     - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml
     - properties:
         properties:
-          $ref: https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema.yaml
+          $ref: https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema.yaml
 anyOf:
 - $ref: '#/$defs/MyFeature'
 
@@ -126,8 +126,8 @@ anyOf:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema.json)
-* JSON version: [schema.json](https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema.yaml)
+* YAML version: [schema.yaml](https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema.json)
+* JSON version: [schema.json](https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema.yaml)
 
 
 # JSON-LD Context
@@ -197,7 +197,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/context.jsonld)
+[context.jsonld](https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/context.jsonld)
 
 ## Sources
 
@@ -207,6 +207,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/nayomirana/OGC_BuildingBlockTest](https://github.com/nayomirana/OGC_BuildingBlockTest)
+* URL: [https://github.com/nayomirana/Test1](https://github.com/nayomirana/Test1)
 * Path: `_sources/myFeature`
 

@@ -10,7 +10,7 @@
         {
           "properties": {
             "properties": {
-              "$ref": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema.json"
+              "$ref": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema.json"
             }
           }
         }

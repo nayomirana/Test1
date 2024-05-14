@@ -40,7 +40,7 @@ In **Markdown** format.
 ```jsonld
 {
   "@context": [
-    "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/context.jsonld",
+    "https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/context.jsonld",
     {
       "mynamespace": "http://example.org/ns1/"
     }
@@ -107,8 +107,8 @@ required:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema.json)
-* JSON version: [schema.json](https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema.yaml)
+* YAML version: [schema.yaml](https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema.json)
+* JSON version: [schema.json](https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema.yaml)
 
 
 # JSON-LD Context
@@ -125,7 +125,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/context.jsonld)
+[context.jsonld](https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/context.jsonld)
 
 ## Sources
 
@@ -135,6 +135,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/nayomirana/OGC_BuildingBlockTest](https://github.com/nayomirana/OGC_BuildingBlockTest)
+* URL: [https://github.com/nayomirana/Test1](https://github.com/nayomirana/Test1)
 * Path: `_sources/mySchema`
 

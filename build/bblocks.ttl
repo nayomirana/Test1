@@ -7,32 +7,32 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/ogc.bbr.template.myFeature> a skos:Concept,
+<https://nayomirana.github.io/ogc.bbr.template.myFeature> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
     rdfs:label "Custom Feature" ;
     dct:abstract "This examples shows a simple customisation for OGC API Feature schemas" ;
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/markdown/bbr/template/myFeature/index.md" ],
+            rdfs:isDefinedBy "https://nayomirana.github.io/Test1/build/generateddocs/markdown/bbr/template/myFeature/index.md" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/slate-build/bbr/template/myFeature/" ],
+            rdfs:isDefinedBy "https://nayomirana.github.io/Test1/build/generateddocs/slate-build/bbr/template/myFeature/" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/bblock/ogc.bbr.template.myFeature" ],
+            rdfs:isDefinedBy "https://nayomirana.github.io/Test1/bblock/ogc.bbr.template.myFeature" ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/json-full/bbr/template/myFeature/index.json" ] ;
+            rdfs:isDefinedBy "https://nayomirana.github.io/Test1/build/generateddocs/json-full/bbr/template/myFeature/index.json" ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2024-05-14"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> ;
-    skos:inScheme <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/> ;
+    skos:inScheme <https://nayomirana.github.io/Test1/> ;
     dcat:keyword "examples",
         "feature" ;
-    bblocks:dependsOn <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/ogc.bbr.template.mySchema>,
-        <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/ogc.geo.features.feature> ;
-    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/context.jsonld> ;
-    bblocks:hasSchema <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema.json>,
-        <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema.yaml> ;
-    bblocks:hasShaclRule <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/mySchema/rules.shacl> ;
+    bblocks:dependsOn <https://nayomirana.github.io/ogc.bbr.template.mySchema>,
+        <https://nayomirana.github.io/ogc.geo.features.feature> ;
+    bblocks:hasJsonLdContext <https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/context.jsonld> ;
+    bblocks:hasSchema <https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema.json>,
+        <https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema.yaml> ;
+    bblocks:hasShaclRule <https://nayomirana.github.io/Test1/_sources/mySchema/rules.shacl> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> .
 
@@ -40,56 +40,56 @@
 
 <https://example.com/sources/1> rdfs:label "Sample source document" .
 
-<https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/ogc.bbr.template.mySchema> a skos:Concept,
+<https://nayomirana.github.io/ogc.bbr.template.mySchema> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
     rdfs:label "My Schema" ;
     dct:abstract "An example schema defining the set of properties of any type of object." ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/markdown/bbr/template/mySchema/index.md" ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://nayomirana.github.io/Test1/build/generateddocs/slate-build/bbr/template/mySchema/" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://nayomirana.github.io/Test1/build/generateddocs/markdown/bbr/template/mySchema/index.md" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/bblock/ogc.bbr.template.mySchema" ],
+            rdfs:isDefinedBy "https://nayomirana.github.io/Test1/bblock/ogc.bbr.template.mySchema" ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/json-full/bbr/template/mySchema/index.json" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/slate-build/bbr/template/mySchema/" ] ;
+            rdfs:isDefinedBy "https://nayomirana.github.io/Test1/build/generateddocs/json-full/bbr/template/mySchema/index.json" ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2024-05-14"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
-    skos:inScheme <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/> ;
+    skos:inScheme <https://nayomirana.github.io/Test1/> ;
     dcat:keyword "templates" ;
-    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/context.jsonld> ;
-    bblocks:hasSchema <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema.json>,
-        <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema.yaml> ;
-    bblocks:hasShaclRule <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/mySchema/rules.shacl> ;
-    bblocks:hasSourceJsonLdContext <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/mySchema/context.jsonld> ;
+    bblocks:hasJsonLdContext <https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/context.jsonld> ;
+    bblocks:hasSchema <https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema.json>,
+        <https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema.yaml> ;
+    bblocks:hasShaclRule <https://nayomirana.github.io/Test1/_sources/mySchema/rules.shacl> ;
+    bblocks:hasSourceJsonLdContext <https://nayomirana.github.io/Test1/_sources/mySchema/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> .
 
-<https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/> a skos:ConceptScheme,
+<https://nayomirana.github.io/Test1/> a skos:ConceptScheme,
         dcat:Catalog ;
-    rdfs:label "Building Blocks - My OGC Building Blocks repository11" ;
+    rdfs:label "Building Blocks - My OGC Building Blocks repository" ;
     dct:abstract """This is an example text for the abstract. It should be short and to the point.
 A "Tell me more" link will appear if there is an additional description with a longer explanation.
 """ ;
     dct:description """The description can be longer. Both **the abstract** *and the description* support Markdown,
 including [links](https://google.es).
 """ ;
-    skos:prefLabel "Building Blocks - My OGC Building Blocks repository11" ;
-    bblocks:hasValidationReport <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/tests/report.html> ;
+    skos:prefLabel "Building Blocks - My OGC Building Blocks repository" ;
+    bblocks:hasValidationReport <https://nayomirana.github.io/Test1/build/tests/report.html> ;
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-05-14T05:55:11.557573"^^xsd:dateTime ;
-    prov:startedAtTime "2024-05-14T05:55:11.496307"^^xsd:dateTime ;
+    prov:endedAtTime "2024-05-14T06:24:20.511705"^^xsd:dateTime ;
+    prov:startedAtTime "2024-05-14T06:24:20.453939"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
-            dct:format "application/yaml" ;
-            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
-        [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:9b9aa129c2bfa83704a526a99119b5e9c78c7203" ;
-            rdfs:seeAlso <https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/register.json> ] ;
+            dct:hasVersion "git:3cb42062fda331ea63c576233cfb1fbcb2ccfb07" ;
+            rdfs:seeAlso <https://nayomirana.github.io/Test1/build/register.json> ],
+        [ a prov:Entity ;
+            dct:format "application/yaml" ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;

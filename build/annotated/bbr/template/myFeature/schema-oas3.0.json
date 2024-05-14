@@ -6,12 +6,12 @@
         "MyFeature": {
           "allOf": [
             {
-              "$ref": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/ogc.geo.features.feature"
+              "$ref": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/ogc.geo.features.feature"
             },
             {
               "properties": {
                 "properties": {
-                  "$ref": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/raw.githubusercontent.com_nayomirana_OGC_BuildingBlockTest_master_build_annotated_bbr_template_mySchema_schema.json"
+                  "$ref": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/nayomirana.github.io_Test1_build_annotated_bbr_template_mySchema_schema.json"
                 }
               }
             }
@@ -20,27 +20,27 @@
       },
       "anyOf": [
         {
-          "$ref": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_myFeature_schema.json/$defs/MyFeature"
+          "$ref": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_myFeature_schema.json/$defs/MyFeature"
         }
       ],
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema-oas3.0.json"
+      "x-schema-source": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema-oas3.0.json"
     },
     "ogc.geo.features.feature": {
       "allOf": [
         {
-          "$ref": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/ogc.geo.common.data_types.geojson"
+          "$ref": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/ogc.geo.common.data_types.geojson"
         },
         {
           "type": "object",
           "properties": {
             "bbox": {
-              "$ref": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/ogc.geo.common.data_types.bounding_box"
+              "$ref": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/ogc.geo.common.data_types.bounding_box"
             },
             "links": {
               "type": "array",
               "items": {
-                "$ref": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/ogc.ogc-utils.json-link"
+                "$ref": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/ogc.ogc-utils.json-link"
               },
               "x-jsonld-id": "http://www.w3.org/2000/01/rdf-schema#seeAlso"
             },
@@ -63,7 +63,7 @@
       },
       "x-schema-source": "https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.json"
     },
-    "raw.githubusercontent.com_nayomirana_OGC_BuildingBlockTest_master_build_annotated_bbr_template_mySchema_schema.json": {
+    "nayomirana.github.io_Test1_build_annotated_bbr_template_mySchema_schema.json": {
       "description": "My example schema",
       "type": "object",
       "properties": {
@@ -86,7 +86,7 @@
         "b"
       ],
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema.json"
+      "x-schema-source": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema.json"
     },
     "ogc.geo.common.data_types.geojson": {
       "title": "GeoJSON Feature",
@@ -744,7 +744,7 @@
   },
   "allOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_myFeature_schema.json"
+      "$ref": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_myFeature_schema.json"
     }
   ]
 }

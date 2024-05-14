@@ -1,7 +1,7 @@
 {
   "@context": [
     {
-      "@base": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master"
+      "@base": "https://nayomirana.github.io/Test1"
     },
     {
       "bblocks": "https://www.opengis.net/def/bblocks/",
@@ -103,10 +103,10 @@
       }
     }
   ],
-  "name": "Building Blocks - My OGC Building Blocks repository11",
+  "name": "Building Blocks - My OGC Building Blocks repository",
   "abstract": "This is an example text for the abstract. It should be short and to the point.\nA \"Tell me more\" link will appear if there is an additional description with a longer explanation.\n",
   "description": "The description can be longer. Both **the abstract** *and the description* support Markdown,\nincluding [links](https://google.es).\n",
-  "modified": "2024-05-14T05:55:10.144000",
+  "modified": "2024-05-14T06:24:19.230316",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"18fbb122a3d7cc4de8b9271905f60ee3e86205a6",
@@ -114,11 +114,11 @@
       "date": "2024-05-13T08:31:44+00:00\""
     }
   },
-  "gitRepository": "https://github.com/nayomirana/OGC_BuildingBlockTest",
-  "gitHubRepository": "https://github.com/nayomirana/OGC_BuildingBlockTest/blob/master/",
-  "baseURL": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/",
-  "viewerURL": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/",
-  "validationReport": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/tests/report.html",
+  "gitRepository": "https://github.com/nayomirana/Test1",
+  "gitHubRepository": "https://github.com/nayomirana/Test1/blob/master/",
+  "baseURL": "https://nayomirana.github.io/Test1/",
+  "viewerURL": "https://nayomirana.github.io/Test1/",
+  "validationReport": "https://nayomirana.github.io/Test1/build/tests/report.html",
   "imports": [
     "https://opengeospatial.github.io/bblocks/register.json"
   ],
@@ -126,7 +126,7 @@
     "skos:ConceptScheme",
     "dcat:Catalog"
   ],
-  "skos:prefLabel": "Building Blocks - My OGC Building Blocks repository11",
+  "skos:prefLabel": "Building Blocks - My OGC Building Blocks repository",
   "hasConcepts": [
     {
       "itemIdentifier": "ogc.bbr.template.mySchema",
@@ -153,35 +153,35 @@
       ],
       "shaclRules": {
         "ogc.bbr.template.mySchema": [
-          "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/mySchema/rules.shacl"
+          "https://nayomirana.github.io/Test1/_sources/mySchema/rules.shacl"
         ]
       },
-      "ldContext": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/context.jsonld",
+      "ldContext": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/context.jsonld",
       "schema": {
-        "application/yaml": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema.yaml",
-        "application/json": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/mySchema/schema.json"
+        "application/yaml": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema.yaml",
+        "application/json": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/mySchema/schema.json"
       },
-      "sourceSchema": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/mySchema/schema.yaml",
-      "sourceLdContext": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/mySchema/context.jsonld",
-      "sourceFiles": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/mySchema/",
+      "sourceSchema": "https://nayomirana.github.io/Test1/_sources/mySchema/schema.yaml",
+      "sourceLdContext": "https://nayomirana.github.io/Test1/_sources/mySchema/context.jsonld",
+      "sourceFiles": "https://nayomirana.github.io/Test1/_sources/mySchema/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/nayomirana/OGC_BuildingBlockTest/blob/master/build/tests/bbr/template/mySchema/",
+      "testOutputs": "https://github.com/nayomirana/Test1/blob/master/build/tests/bbr/template/mySchema/",
       "documentation": {
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/json-full/bbr/template/mySchema/index.json"
+          "url": "https://nayomirana.github.io/Test1/build/generateddocs/json-full/bbr/template/mySchema/index.json"
         },
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/markdown/bbr/template/mySchema/index.md"
+          "url": "https://nayomirana.github.io/Test1/build/generateddocs/markdown/bbr/template/mySchema/index.md"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/slate-build/bbr/template/mySchema/"
+          "url": "https://nayomirana.github.io/Test1/build/generateddocs/slate-build/bbr/template/mySchema/"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/bblock/ogc.bbr.template.mySchema"
+          "url": "https://nayomirana.github.io/Test1/bblock/ogc.bbr.template.mySchema"
         }
       },
       "@type": [
@@ -220,34 +220,34 @@
       "highlighted": true,
       "shaclRules": {
         "ogc.bbr.template.mySchema": [
-          "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/mySchema/rules.shacl"
+          "https://nayomirana.github.io/Test1/_sources/mySchema/rules.shacl"
         ]
       },
       "schema": {
-        "application/yaml": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema.yaml",
-        "application/json": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/schema.json"
+        "application/yaml": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema.yaml",
+        "application/json": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/schema.json"
       },
-      "sourceSchema": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/myFeature/schema.yaml",
-      "ldContext": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/annotated/bbr/template/myFeature/context.jsonld",
-      "sourceFiles": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/_sources/myFeature/",
+      "sourceSchema": "https://nayomirana.github.io/Test1/_sources/myFeature/schema.yaml",
+      "ldContext": "https://nayomirana.github.io/Test1/build/annotated/bbr/template/myFeature/context.jsonld",
+      "sourceFiles": "https://nayomirana.github.io/Test1/_sources/myFeature/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/nayomirana/OGC_BuildingBlockTest/blob/master/build/tests/bbr/template/myFeature/",
+      "testOutputs": "https://github.com/nayomirana/Test1/blob/master/build/tests/bbr/template/myFeature/",
       "documentation": {
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/json-full/bbr/template/myFeature/index.json"
+          "url": "https://nayomirana.github.io/Test1/build/generateddocs/json-full/bbr/template/myFeature/index.json"
         },
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/markdown/bbr/template/myFeature/index.md"
+          "url": "https://nayomirana.github.io/Test1/build/generateddocs/markdown/bbr/template/myFeature/index.md"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/build/generateddocs/slate-build/bbr/template/myFeature/"
+          "url": "https://nayomirana.github.io/Test1/build/generateddocs/slate-build/bbr/template/myFeature/"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/nayomirana/OGC_BuildingBlockTest/master/bblock/ogc.bbr.template.myFeature"
+          "url": "https://nayomirana.github.io/Test1/bblock/ogc.bbr.template.myFeature"
         }
       },
       "@type": [
