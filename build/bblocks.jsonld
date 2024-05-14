@@ -103,10 +103,10 @@
       }
     }
   ],
-  "name": "Building Blocks - My OGC Building Blocks repository",
+  "name": "Building Blocks - My OGC Building Blocks repository11",
   "abstract": "This is an example text for the abstract. It should be short and to the point.\nA \"Tell me more\" link will appear if there is an additional description with a longer explanation.\n",
   "description": "The description can be longer. Both **the abstract** *and the description* support Markdown,\nincluding [links](https://google.es).\n",
-  "modified": "2024-05-14T05:21:43.613374",
+  "modified": "2024-05-14T05:55:10.144000",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"18fbb122a3d7cc4de8b9271905f60ee3e86205a6",
@@ -126,7 +126,7 @@
     "skos:ConceptScheme",
     "dcat:Catalog"
   ],
-  "skos:prefLabel": "Building Blocks - My OGC Building Blocks repository",
+  "skos:prefLabel": "Building Blocks - My OGC Building Blocks repository11",
   "hasConcepts": [
     {
       "itemIdentifier": "ogc.bbr.template.mySchema",
