@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.myFeature - Custom Feature
-Generated 2024-05-14T06:24:20.440865+00:00
+Generated 2024-05-14T06:36:48.860675+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting

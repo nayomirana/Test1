@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.template.mySchema - My Schema",
   "bblockName": "My Schema",
   "bblockId": "ogc.bbr.template.mySchema",
-  "generated": "2024-05-14T06:24:20.315138+00:00",
+  "generated": "2024-05-14T06:36:48.663148+00:00",
   "result": true,
   "items": [
     {
@@ -93,12 +93,12 @@
               "focusNodes": {
                 "<https://www.ogc.org/rules/template/#testValues>": {
                   "nodes": [
-                    "_:N68c404aa767d454db2f5a65003c9cf0f"
+                    "_:N362d632f84d34c108297155ad5a7c2cd"
                   ]
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/mySchema/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:N68c404aa767d454db2f5a65003c9cf0f\n"
+              "message": "Focus nodes for _sources/mySchema/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:N362d632f84d34c108297155ad5a7c2cd\n"
             }
           ]
         },
@@ -193,12 +193,12 @@
               "focusNodes": {
                 "<https://www.ogc.org/rules/template/#testValues>": {
                   "nodes": [
-                    "_:N2a958bd7f4ba417a817555aaf0fc5fb1"
+                    "_:N422b1689d7484be081a27520fe1a129c"
                   ]
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/mySchema/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:N2a958bd7f4ba417a817555aaf0fc5fb1\n"
+              "message": "Focus nodes for _sources/mySchema/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:N422b1689d7484be081a27520fe1a129c\n"
             }
           ]
         },
